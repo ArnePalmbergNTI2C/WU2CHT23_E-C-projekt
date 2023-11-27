@@ -34,7 +34,12 @@ header {
     display: flex;
     align-items: center;
     grid-area: he;
-    background: green;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "log ul"
+    ;
 
 }
 
@@ -43,9 +48,9 @@ header {
 
     display: flex;
     list-style: none;
-        justify-content: space-around;
-    
+    justify-content: space-around;
     width: 100%;
+    grid-area: ul;
 }
 
 
@@ -68,12 +73,10 @@ a {
 #logo{
 
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
-    padding-right: 50px;
-    grid-area: lo;
-    background: blue;
-
+    padding-left: 50px;
+    grid-area: log;
 
 }
 
@@ -98,7 +101,7 @@ footer {
     grid-template-rows: 100px 600px 600px 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-    "he lo"
+    "he he"
     "ma ma"
     "se1 se2"
     "fo fo"
@@ -141,13 +144,14 @@ footer {
 #body_2 {
 
     display: grid;
-    height: 200vh;
-    grid-template-rows: 100px 600px 600px 1fr;
+    height: 300vh;
+    grid-template-rows: 100px 600px 600px 300px 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
     "ma ma"
-    "se1 se2"
+    "se1_2 se2_2"
+    "se3_2 se4_2"
     "fo fo"
     ;
 
@@ -155,7 +159,7 @@ footer {
 
 #main_2 {
 
-    background: #d2af46;
+    background: #FFC107;
     display: flex;
     grid-area: ma;
     justify-content: center;
@@ -167,7 +171,7 @@ footer {
 
     background: green;
     display: flex;
-    grid-area: se1;
+    grid-area: se1_2;
     justify-content: center;
     align-items: center;
 
@@ -177,7 +181,27 @@ footer {
 
     background: greenyellow;
     display: flex;
-    grid-area: se2;
+    grid-area: se2_2;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#section_3_2 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se3_2;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#section_4_2 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se4_2;
     justify-content: center;
     align-items: center;
 
@@ -188,21 +212,22 @@ footer {
 #body_3 {
 
     display: grid;
-    height: 200vh;
-    grid-template-rows: 100px 600px 600px 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "he he"
-    "ma ma"
-    "se1 se2"
-    "fo fo"
+    height: 300vh;
+    grid-template-rows: 100px 600px 300px 300px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "he he he he"
+    "ma ma ma ma"
+    "se1_3 se2_3 se3_3 se4_3"
+    "se5_3 se6_3 se7_3 se8_3"
+    "fo fo fo fo"
     ;
 
 }
 
 #main_3 {
 
-    background: #d2af46;
+    background: #FFC107;
     display: flex;
     grid-area: ma;
     justify-content: center;
@@ -212,11 +237,12 @@ footer {
 
 #section_1_3 {
 
-    background: green;
+    background: greenyellow;
     display: flex;
-    grid-area: se1;
+    grid-area: se1_3;
     justify-content: center;
     align-items: center;
+    border-radius: 75px;
 
 }
 
@@ -225,9 +251,80 @@ footer {
 
     background: greenyellow;
     display: flex;
-    grid-area: se2;
+    grid-area: se2_3;
     justify-content: center;
     align-items: center;
+    border-radius: 75px;
 
 }
 
+#section_3_3 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se3_3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 75px;
+
+}
+
+#section_4_3 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se4_3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 75px;
+
+}
+
+#section_5_3 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se5_3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 75px;
+
+}
+
+#section_6_3 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se6_3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#section_7_3 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se7_3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#section_8_3 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se8_3;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.person {
+
+    height: auto;
+    width: 100%;
+}
