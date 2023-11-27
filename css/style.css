@@ -354,7 +354,6 @@ footer {
 .card_photos {
 
     overflow: hidden;
-    background: greenyellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -368,7 +367,6 @@ footer {
 .div_for_text {
 
     position: absolute;
-    bottom: 0px;    
     color: white;
-
+    bottom: 0px;
 }
