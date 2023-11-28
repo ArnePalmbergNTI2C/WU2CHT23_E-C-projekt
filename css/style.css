@@ -97,7 +97,22 @@ footer {
     grid-area: fo;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    position: relative;
 
+}
+
+#background_footer {
+
+    width: 100%;
+    height: auto;
+
+}
+
+#background_div {
+
+    position: absolute;
+    margin: 10px;
 }
 
 /*index - 1*/
@@ -220,7 +235,7 @@ footer {
 #body_3 {
 
     display: grid;
-    height: 225vh;
+    height: 250vh;
     grid-template-rows: 100px 600px 100px 350px 350px 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
