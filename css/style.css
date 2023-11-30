@@ -45,7 +45,6 @@ header {
 
 }
 
-
 #ul_header {
 
     display: flex;
@@ -71,20 +70,20 @@ header {
 
 }
 
-#logo_bild {
-
-    height: 180px;
-    width: auto;
-
-}
-
-#logo{
+#nav_logo{
 
     display: flex;
     justify-content: left;
     align-items: center;
     padding-left: 50px;
     grid-area: log;
+
+}
+
+#logo_bild {
+
+    height: 180px;
+    width: auto;
 
 }
 
@@ -107,12 +106,11 @@ footer {
 
 }
 
-#kontakt {
+#div_footer {
 
     top: 50px;
     left: 100px;
     position: absolute;
-
 
 }
 
@@ -121,13 +119,13 @@ footer {
 #body_1 {
 
     display: grid;
-    height: 200vh;
-    grid-template-rows: 100px 600px 600px 1fr;
+    grid-template-rows: 100px 600px 600px 300px 300px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
-    "ma ma"
-    "se1 se2"
+    "ma2 ma2"
+    "se1_1 se2_1"
+    "se3_1 se4_1"
     "fo fo"
     ;
 
@@ -137,7 +135,7 @@ footer {
 
     background: #FFC107;
     display: flex;
-    grid-area: ma;
+    grid-area: ma2;
     justify-content: center;
     align-items: center;  
 
@@ -147,7 +145,7 @@ footer {
 
     background: green;
     display: flex;
-    grid-area: se1;
+    grid-area: se1_1;
     justify-content: center;
     align-items: center;
 
@@ -157,7 +155,27 @@ footer {
 
     background: greenyellow;
     display: flex;
-    grid-area: se2;
+    grid-area: se2_1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#section_3_1 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se3_1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#section_4_1 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se4_1;
     justify-content: center;
     align-items: center;
 
@@ -168,26 +186,15 @@ footer {
 #body_2 {
 
     display: grid;
-    height: 300vh;
-    grid-template-rows: 100px 600px 600px 300px 1fr;
+    grid-template-rows: 100px 800px 800px 800px 300px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
-    "ma ma"
     "se1_2 se2_2"
     "se3_2 se4_2"
+    "se5_2 se6_2"
     "fo fo"
     ;
-
-}
-
-#main_2 {
-
-    background: #FFC107;
-    display: flex;
-    grid-area: ma;
-    justify-content: center;
-    align-items: center;  
 
 }
 
@@ -208,6 +215,15 @@ footer {
     grid-area: se2_2;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
+
+}
+
+#sitting_dog {
+
+    height: auto;
+    width: 100%;
 
 }
 
@@ -218,6 +234,15 @@ footer {
     grid-area: se3_2;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
+
+}
+
+#sitting_dog {
+
+    height: auto;
+    width: 100%;
 
 }
 
@@ -231,17 +256,45 @@ footer {
 
 }
 
+#section_5_2 {
+
+    background: green;
+    display: flex;
+    grid-area: se5_2;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#section_6_2 {
+
+    background: greenyellow;
+    display: flex;
+    grid-area: se6_2;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+#sitting_dog {
+
+    height: auto;
+    width: 100%;
+
+}
+
 /*husdjursvord-veterinerservice*/
 
 #body_3 {
 
     display: grid;
-    height: 250vh;
-    grid-template-rows: 100px 600px 100px 350px 350px 1fr;
+    grid-template-rows: 100px 600px 100px 350px 350px 300px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "he he he he"
-    "sse1_3 sse1_3 sse2_3 sse2_3"
+    "se1_3 se1_3 se2_3 se2_3"
     "in in in in"
     "sebig_3 sebig_3 sebig_3 sebig_3"
     "sebig_3 sebig_3 sebig_3 sebig_3"
@@ -250,9 +303,9 @@ footer {
 
 }
 
-#ssection_1_3 {
+#section_1_3 {
 
-    grid-area: sse1_3;
+    grid-area: se1_3;
     display: flex;   
     align-items: center;
     padding: 25px;
@@ -260,23 +313,9 @@ footer {
 
 }
 
-.dd {
+#section_2_3 {
 
-    font-size: 1.25rem;
-    font-family: 'Kay Pho Du', serif;
-    top: 50px;
-    left: 100px;
-}
-
-.bob {
-
-    padding: auto;
-
-}
-
-#ssection_2_3 {
-
-    grid-area: sse2_3;
+    grid-area: se2_3;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -292,7 +331,7 @@ footer {
 }
 
 
-#section_intro_big_3 {
+#section_intro_kontakter_3 {
 
     grid-area: in;
     display: flex;
@@ -304,7 +343,7 @@ footer {
 }
 
 
-#big_section {
+#kontakter_section {
 
     background: #FFC107;
     padding: 50px;
@@ -313,58 +352,58 @@ footer {
     grid-template-rows: 300px 300px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "2se1_3 2se2_3 2se3_3 2se4_3"
-    "2se5_3 2se6_3 2se7_3 2se8_3"
+    "se3_3 se4_3 se5_3 se6_3"
+    "se7_3 se8_3 se9_3 se10_3"
     ;
-
-}
-
-#section_1_3 {
-
-    grid-area: 2se1_3;
-
-}
-
-
-#section_2_3 {
-
-    grid-area: 2se2_3;
 
 }
 
 #section_3_3 {
 
-    grid-area: 2se3_3;
+    grid-area: se3_3;
 
 }
 
+
 #section_4_3 {
 
-    grid-area: 2se4_3;
-    
+    grid-area: se4_3;
+
 }
 
 #section_5_3 {
 
-    grid-area: 2se5_3;
-    
+    grid-area: se5_3;
+
 }
 
 #section_6_3 {
 
-    grid-area: 2se6_3;
+    grid-area: se6_3;
     
 }
 
 #section_7_3 {
 
-    grid-area: 2se7_3;
+    grid-area: se7_3;
     
 }
 
 #section_8_3 {
 
-    grid-area: 2se8_3;
+    grid-area: se8_3;
+    
+}
+
+#section_9_3 {
+
+    grid-area: se9_3;
+    
+}
+
+#section_10_3 {
+
+    grid-area: se10_3;
 }
 
 .person_tall {
@@ -394,9 +433,18 @@ footer {
 }
 
 
-.div_for_text {
+.div_for_text_kontakter {
 
     position: absolute;
     color: white;
     bottom: 0px;
+    font-size: 2rem;
+    font-family: 'Kay Pho Du', serif;
+
+}
+
+.p.card {
+
+
+
 }
