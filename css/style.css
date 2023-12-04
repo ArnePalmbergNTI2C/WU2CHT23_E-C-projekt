@@ -24,9 +24,21 @@ h3 {
 
     font-size: 1rem;
     font-family: 'Kay Pho Du', serif;
+}
+
+p {
+
+    font-size: 1rem;
+    font-family: 'Kay Pho Du', serif;
 
 }
 
+li {
+
+    font-size: 1rem;
+    font-family: 'Kay Pho Du', serif;
+
+}
 
 /*header*/
 
@@ -119,13 +131,14 @@ footer {
 #body_1 {
 
     display: grid;
-    grid-template-rows: 100px 600px 600px 300px 300px;
+    grid-template-rows: 100px 600px 600px 300px 200px 300px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
     "ma2 ma2"
     "se1_1 se2_1"
     "se3_1 se4_1"
+    "last_se_1 last_se_1"
     "fo fo"
     ;
 
@@ -181,107 +194,138 @@ footer {
 
 }
 
+#last_section_1 {
+
+    grid-area: last_se_1;
+
+}
+
 /*traningstips - 2*/
 
 #body_2 {
 
     display: grid;
-    grid-template-rows: 100px 800px 800px 800px 300px;
+    grid-template-rows: 100px 200px 900px 900px 900px 200px 300px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
+    "se1_first se1_first"
     "se1_2 se2_2"
     "se3_2 se4_2"
     "se5_2 se6_2"
+    "last_se_2 last_se_2"
     "fo fo"
     ;
 
 }
 
-#section_1_2 {
+#first_section_2 {
 
-    background: green;
+    background: #796529;
     display: flex;
-    grid-area: se1_2;
+    grid-area: se1_first;
     justify-content: center;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 
+}
+
+#section_1_2 {
+
+    display: flex;
+    background: #FFC107;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #section_2_2 {
 
-    background: greenyellow;
     display: flex;
-    grid-area: se2_2;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-
-}
-
-#sitting_dog {
-
-    height: auto;
-    width: 100%;
 
 }
 
 #section_3_2 {
 
-    background: greenyellow;
     display: flex;
     grid-area: se3_2;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-
-}
-
-#sitting_dog {
-
-    height: auto;
-    width: 100%;
-
+    
 }
 
 #section_4_2 {
 
-    background: greenyellow;
+    background: #FFC107;
     display: flex;
     grid-area: se4_2;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
 #section_5_2 {
 
-    background: green;
+    background: #FFC107;
     display: flex;
     grid-area: se5_2;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
 #section_6_2 {
 
-    background: greenyellow;
     display: flex;
     grid-area: se6_2;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 
+}
+
+.li_tips {
+
+    display: flex;
+    padding-top: 20px;
 
 }
 
-#sitting_dog {
+#li_tips {
+
+    padding-bottom: 20px;
+
+}
+
+.p_taggen_över_tipsen {
+
+    padding-top: 20px;
+
+}
+
+#djur_tips {
 
     height: auto;
     width: 100%;
+
+}
+
+#last_section_2 {
+
+    grid-area: last_se_2;
 
 }
 
@@ -290,7 +334,7 @@ footer {
 #body_3 {
 
     display: grid;
-    grid-template-rows: 100px 600px 100px 350px 350px 300px;
+    grid-template-rows: 100px 600px 100px 350px 350px 200px 300px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "he he he he"
@@ -298,6 +342,7 @@ footer {
     "in in in in"
     "sebig_3 sebig_3 sebig_3 sebig_3"
     "sebig_3 sebig_3 sebig_3 sebig_3"
+    "last_se_3 last_se_3 last_se_3 last_se_3"
     "fo fo fo fo"
     ;
 
@@ -306,10 +351,19 @@ footer {
 #section_1_3 {
 
     grid-area: se1_3;
-    display: flex;   
-    align-items: center;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     background: #FFC107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.text_3 {
+
+    padding-bottom: 40px;
 
 }
 
@@ -338,7 +392,7 @@ footer {
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
-    background: #715502;
+    background: #796529;
 
 }
 
@@ -432,19 +486,23 @@ footer {
     
 }
 
-
 .div_for_text_kontakter {
 
     position: absolute;
     color: white;
     bottom: 0px;
-    font-size: 2rem;
     font-family: 'Kay Pho Du', serif;
 
 }
 
-.p.card {
+.p_card {
 
+    font-size: 2rem;
 
+}
+
+#last_section_3 {
+
+    grid-area: last_se_3;
 
 }
