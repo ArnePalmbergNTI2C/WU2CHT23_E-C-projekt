@@ -33,6 +33,14 @@ p {
 
 }
 
+a {
+
+    font-size: 1rem;
+    font-family: 'Kay Pho Du', serif;
+
+}
+
+
 li {
 
     font-size: 1rem;
@@ -76,7 +84,6 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 1.35rem;
     
-
 }
 
 .a_header:hover {
@@ -134,7 +141,7 @@ footer {
 #body_1 {
 
     display: grid;
-    grid-template-rows: 100px 600px 600px 600px 300px;
+    grid-template-rows: 100px 400px 700px 700px 300px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
@@ -151,24 +158,43 @@ footer {
     background: #FFC107;
     grid-area: se0_0;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#div_for_text_startsida {
+
+    position: absolute;
+    color: white;
+    font-family: 'Kay Pho Du', serif;
+
+}
+
+#p_startsida_hundarna {
+
+    font-size: 5rem;
 
 }
 
 #startsida_hundar {
 
     width: 100%;
+    padding-top: 120px;
     height: auto;
-
 
 }
 
 #section_1_1 {
 
     background: #FFC107;
-    display: flex;
     grid-area: se1_1;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
 
 }
 
@@ -177,11 +203,9 @@ footer {
     background: #FFC107;
     grid-area: se2_1;
     overflow: hidden;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -189,7 +213,6 @@ footer {
 
     width: 100%;
     height: auto;
-
 
 }
 
@@ -203,6 +226,7 @@ footer {
     overflow: hidden;
 
 }
+
 #hund_startsida {
 
     width: 100%;
@@ -212,26 +236,40 @@ footer {
 
 #section_4_1 {
 
-    background: greenyellow;
-    display: flex;
+    background: #FFC107;
     grid-area: se4_1;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    padding-left: 20px;
-
 }
 
 .a_start {
 
     color: black;
-    text-decoration: underline;    
+    text-decoration: underline; 
+    font-weight: bolder;   
 
 }
 
 .a_start:hover {
 
     color: brown;
+
+}
+
+
+.p_brevid_katt {
+    
+
+    margin-bottom: 30px;
+
+}
+
+.titel_startsida {
+
+    text-decoration: underline;
 
 }
 
@@ -351,10 +389,16 @@ footer {
 
 }
 
-#djur_tips {
+.djur_tips {
 
     height: auto;
     width: 100%;
+
+}
+
+#rullande_katt {
+
+    padding-bottom: 90px;
 
 }
 
@@ -450,6 +494,13 @@ footer {
 
 #section_3_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se3_3;
 
 }
@@ -457,42 +508,91 @@ footer {
 
 #section_4_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se4_3;
 
 }
 
 #section_5_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se5_3;
 
 }
 
 #section_6_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se6_3;
     
 }
 
 #section_7_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se7_3;
     
 }
 
 #section_8_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se8_3;
     
 }
 
 #section_9_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se9_3;
     
 }
 
 #section_10_3 {
 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
     grid-area: se10_3;
 }
 
@@ -510,24 +610,13 @@ footer {
 
 }
 
-.card_photos {
-
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    position: relative;
-    margin: 10px;
-    
-}
-
 .div_for_text_kontakter {
 
     position: absolute;
     color: white;
     bottom: 0px;
     font-family: 'Kay Pho Du', serif;
+    
 
 }
 
