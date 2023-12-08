@@ -8,14 +8,14 @@
 
 h1 {
 
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Kay Pho Du', serif;
 
 }
 
 h2 {
 
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Kay Pho Du', serif;
 
 }
@@ -40,6 +40,8 @@ li {
 
 }
 
+
+
 /*header*/
 
 header {
@@ -62,10 +64,10 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    list-style: none;
     grid-area: ul;
+    list-style: none;
+    
 }
-
 
 .a_header {
 
@@ -73,6 +75,7 @@ header {
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 1.35rem;
+    
 
 }
 
@@ -299,7 +302,6 @@ footer {
 
 .li_tips {
 
-    display: flex;
     padding-top: 20px;
 
 }
@@ -334,7 +336,7 @@ footer {
 #body_3 {
 
     display: grid;
-    grid-template-rows: 100px 600px 100px 350px 350px 200px 300px;
+    grid-template-rows: 100px 600px 150px 350px 350px 200px 300px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "he he he he"
@@ -355,8 +357,8 @@ footer {
     padding-right: 25px;
     background: #FFC107;
     display: flex;
+    
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 
 }
@@ -501,6 +503,31 @@ footer {
 
 }
 
+#section_7_3 .div_for_text_kontakter .p_card {
+    visibility: visible;
+    transition: visibility 0s ease;
+}
+
+#section_7_3:hover .div_for_text_kontakter .p_card {
+    visibility: hidden;
+    transition: visibility 0s ease;
+}
+
+#section_7_3:hover .div_for_text_kontakter .p_card::after {
+    content: "0987654321";
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    font-family: 'Kay Pho Du', serif;
+    font-size: 2rem;
+}
 #last_section_3 {
 
     grid-area: last_se_3;
