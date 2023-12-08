@@ -134,46 +134,62 @@ footer {
 #body_1 {
 
     display: grid;
-    grid-template-rows: 100px 600px 600px 300px 200px 300px;
+    grid-template-rows: 100px 600px 600px 600px 300px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
-    "ma2 ma2"
+    "se0_0 se0_0"
     "se1_1 se2_1"
     "se3_1 se4_1"
-    "last_se_1 last_se_1"
     "fo fo"
     ;
 
 }
 
-#main_1 {
+#se0_0 {
 
     background: #FFC107;
-    display: flex;
-    grid-area: ma2;
-    justify-content: center;
-    align-items: center;  
+    grid-area: se0_0;
+    overflow: hidden;
+
+}
+
+#startsida_hundar {
+
+    width: 100%;
+    height: auto;
+
 
 }
 
 #section_1_1 {
 
-    background: green;
+    background: #FFC107;
     display: flex;
     grid-area: se1_1;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
 #section_2_1 {
 
-    background: greenyellow;
-    display: flex;
+    background: #FFC107;
     grid-area: se2_1;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+
+}
+
+#katt_startsida {
+
+    width: 100%;
+    height: auto;
+
 
 }
 
@@ -184,6 +200,13 @@ footer {
     grid-area: se3_1;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
+}
+#hund_startsida {
+
+    width: 100%;
+    height: auto;
 
 }
 
@@ -193,13 +216,22 @@ footer {
     display: flex;
     grid-area: se4_1;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-left: 20px;
 
 }
 
-#last_section_1 {
+.a_start {
 
-    grid-area: last_se_1;
+    color: black;
+    text-decoration: underline;    
+
+}
+
+.a_start:hover {
+
+    color: brown;
 
 }
 
@@ -397,7 +429,6 @@ footer {
     padding-right: 200px;
     background: #796529;
     text-align: center;
-
 
 }
 
