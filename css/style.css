@@ -231,6 +231,7 @@ footer {
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+    text-align: center;
 
 }
 
@@ -357,7 +358,7 @@ footer {
     padding-right: 25px;
     background: #FFC107;
     display: flex;
-    
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 
@@ -395,6 +396,8 @@ footer {
     padding-left: 200px;
     padding-right: 200px;
     background: #796529;
+    text-align: center;
+
 
 }
 
@@ -503,31 +506,6 @@ footer {
 
 }
 
-#section_7_3 .div_for_text_kontakter .p_card {
-    visibility: visible;
-    transition: visibility 0s ease;
-}
-
-#section_7_3:hover .div_for_text_kontakter .p_card {
-    visibility: hidden;
-    transition: visibility 0s ease;
-}
-
-#section_7_3:hover .div_for_text_kontakter .p_card::after {
-    content: "0987654321";
-    visibility: visible;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    color: white;
-    font-family: 'Kay Pho Du', serif;
-    font-size: 2rem;
-}
 #last_section_3 {
 
     grid-area: last_se_3;
