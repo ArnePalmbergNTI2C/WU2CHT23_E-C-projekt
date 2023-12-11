@@ -110,27 +110,12 @@ header {
 
 footer {
 
-    background: #FFC107;
+    background: #ffe186;
     grid-area: fo;
-    overflow: hidden;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-}
-
-#background_footer_bild {
-
-    width: 100%;
-    height: auto;
-
-}
-
-#div_footer {
-
-    position: absolute;
-
 }
 
 #p_footer {
@@ -281,7 +266,7 @@ footer {
 #body_2 {
 
     display: grid;
-    grid-template-rows: 100px 200px 900px 900px 900px 200px 700px 125px;
+    grid-template-rows: 100px 200px 900px 900px 900px 200px 750px 125px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
@@ -418,11 +403,170 @@ footer {
     text-align: center;
 }
 
-#forum2 {
-
+#forum_section {
+    background: #FFC107;
+    padding: 5px;
     grid-area: fo2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
+  
+.right_art {
+
+    text-align: right ;
+    grid-area: a2;
+
+}
+
+.left_art {
+
+    text-align: left ;
+    grid-area: a1;
+
+
+}
+
+.forum_q {
+
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#rubrik_forum {
+
+    text-align: center;
+
+}
+
+#section_a_1 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+
+}
+
+#section_a_2 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+}
+
+#section_a_3 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+}
+
+#section_a_4 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+}
+
+#section_a_5 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+}
+
+#section_a_6 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+}
+
+#section_a_7 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+}
+
+#section_a_8 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a1 a2"
+
+}
+
+#section_a_9 {
+
+    background: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
 
 /*husdjursvord-veterinerservice*/
 
@@ -651,12 +795,5 @@ footer {
     padding-left: 200px;
     padding-right: 200px;
     text-align: center;
-
-}
-
-#forum3 {
-
-    grid-area: fo3;
-    
 
 }
