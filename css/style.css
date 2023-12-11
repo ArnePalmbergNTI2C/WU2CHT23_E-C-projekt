@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du&family=Open+Sans:wght@300&family=Raleway&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,34 +8,34 @@
 h1 {
 
     font-size: 3rem;
-    font-family: 'Kay Pho Du', serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 h2 {
 
     font-size: 2rem;
-    font-family: 'Kay Pho Du', serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 h3 {
 
     font-size: 1rem;
-    font-family: 'Kay Pho Du', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
 
     font-size: 1rem;
-    font-family: 'Kay Pho Du', serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 a {
 
     font-size: 1rem;
-    font-family: 'Kay Pho Du', serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -44,11 +43,9 @@ a {
 li {
 
     font-size: 1rem;
-    font-family: 'Kay Pho Du', serif;
+    font-family: 'Raleway', sans-serif;
 
 }
-
-
 
 /*header*/
 
@@ -116,9 +113,11 @@ footer {
     background: #FFC107;
     grid-area: fo;
     overflow: hidden;
-    text-align: center;
     position: relative;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 #background_footer_bild {
@@ -130,9 +129,13 @@ footer {
 
 #div_footer {
 
-    top: 50px;
-    left: 100px;
     position: absolute;
+
+}
+
+#p_footer {
+
+    font-size: 3rem;
 
 }
 
@@ -141,7 +144,7 @@ footer {
 #body_1 {
 
     display: grid;
-    grid-template-rows: 100px 400px 700px 700px 300px;
+    grid-template-rows: 100px 400px 700px 700px 125px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
@@ -278,7 +281,7 @@ footer {
 #body_2 {
 
     display: grid;
-    grid-template-rows: 100px 200px 900px 900px 900px 200px 300px;
+    grid-template-rows: 100px 200px 900px 900px 900px 200px 700px 125px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
@@ -287,6 +290,7 @@ footer {
     "se3_2 se4_2"
     "se5_2 se6_2"
     "last_se_2 last_se_2"
+    "fo2 fo2"
     "fo fo"
     ;
 
@@ -405,6 +409,18 @@ footer {
 #last_section_2 {
 
     grid-area: last_se_2;
+    background: #796529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+#forum2 {
+
+    grid-area: fo2;
 
 }
 
@@ -413,7 +429,7 @@ footer {
 #body_3 {
 
     display: grid;
-    grid-template-rows: 100px 600px 150px 350px 350px 200px 300px;
+    grid-template-rows: 100px 600px 150px 350px 350px 125px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "he he he he"
@@ -421,7 +437,6 @@ footer {
     "in in in in"
     "sebig_3 sebig_3 sebig_3 sebig_3"
     "sebig_3 sebig_3 sebig_3 sebig_3"
-    "last_se_3 last_se_3 last_se_3 last_se_3"
     "fo fo fo fo"
     ;
 
@@ -430,8 +445,8 @@ footer {
 #section_1_3 {
 
     grid-area: se1_3;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     background: #FFC107;
     display: flex;
     align-items: center;
@@ -629,5 +644,19 @@ footer {
 #last_section_3 {
 
     grid-area: last_se_3;
+    background: #796529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+
+}
+
+#forum3 {
+
+    grid-area: fo3;
+    
 
 }
