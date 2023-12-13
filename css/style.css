@@ -92,17 +92,24 @@ header {
 #nav_logo{
 
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    padding-left: 50px;
     grid-area: log;
 
 }
 
 #logo_bild {
 
-    height: 180px;
+    height: 80px;
     width: auto;
+
+}
+
+#logo_hund_bild {
+
+    height: 100px;
+    width: auto;
+    padding-left: 10px;
 
 }
 
