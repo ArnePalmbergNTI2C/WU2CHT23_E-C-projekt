@@ -12,19 +12,6 @@ h1 {
 
 }
 
-h2 {
-
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-
-}
-
-h3 {
-
-    font-size: 1rem;
-    font-family: 'Raleway', sans-serif;
-}
-
 p {
 
     font-size: 1rem;
@@ -79,7 +66,7 @@ header {
     color: black;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     
 }
 
@@ -163,8 +150,6 @@ footer {
 
     position: absolute;
     color: white;
-    font-family: 'Kay Pho Du', serif;
-
 }
 
 #p_startsida_hundarna {
@@ -452,7 +437,7 @@ footer {
     background: white;
     margin: 10px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 7px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -468,7 +453,7 @@ footer {
     background: white;
     margin: 10px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 7px;
     margin-left: 500px;
     margin-right: 500px;
@@ -684,7 +669,6 @@ footer {
     position: absolute;
     color: white;
     bottom: 0px;
-    font-family: 'Kay Pho Du', serif;
     
 
 }
@@ -692,6 +676,8 @@ footer {
 .p_card {
 
     font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
 }
 
