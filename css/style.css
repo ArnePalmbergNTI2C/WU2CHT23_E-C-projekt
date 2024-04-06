@@ -469,13 +469,12 @@ footer {
 #body_3 {
 
     display: grid;
-    grid-template-rows: 100px 600px 150px 350px 350px 125px;
+    grid-template-rows: 100px 600px 150px 700px 125px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "he he he he"
     "se1_3 se1_3 se2_3 se2_3"
     "in in in in"
-    "sebig_3 sebig_3 sebig_3 sebig_3"
     "sebig_3 sebig_3 sebig_3 sebig_3"
     "fo fo fo fo"
     ;
